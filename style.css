@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxContainer {
+  width: 400px;
+  height: 400px;
+  margin-right: 40px;
+}
+.box {
+  width: 38px;
+  height: 38px;
+  background-color: dodgerblue;
+  float: left;
+  border: 1px solid white;
+}
